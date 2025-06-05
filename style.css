@@ -1,0 +1,96 @@
+ body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #d44d30;
+      color: #fff;
+    }
+    header {
+      background-color: #d44d30;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+    }
+    header img {
+      height: 60px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #d44d30;
+      color: #ffffff;
+      padding: 20px;
+
+    }
+    
+    .section-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      margin: 10px 0;
+      align-items: center;
+     
+    }
+    .services, .team, .specialists {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin: 20px 10px;
+    }
+    .service {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+
+    }
+    .card {
+      background-color: #d44d30;
+      color: #710d99;
+      border-radius: 10px;
+      overflow: hidden;
+      
+      transition: transform 0.3s, box-shadow 0.3s;
+      width: 200px;
+      margin: 10px;
+      text-align: center;
+      max-width: 300px;
+    }
+    .card img {
+      width: 100%;
+      height: auto;
+    }
+    .footer {
+      background-color: #e2f1d0;
+      color: #000;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      flex-wrap: wrap;
+    }
+    .card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px black;
+}
+
+    .footer h3 {
+      color: #5a0d03;
+    }
+    .footer .social-icons img {
+      width: 32px;
+      margin: 0 5px;
+    }
+    .copyright {
+      background-color: #312ee9;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 0.9em;
+    }

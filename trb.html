@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veterinaria Bosotros</title>
+    <style>
+        /* ESTILOS GENERALES */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+            background-color: #f9f9f9;
+        }
+
+        /* CONTENEDOR PRINCIPAL */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* TÍTULOS */
+        .section-title {
+            text-align: center;
+            margin: 40px 0;
+            font-size: 2em;
+            color: #2c3e50;
+        }
+
+        /* CAJAS CON BORDES REDONDEADOS */
+        .rounded-box {
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            overflow: hidden;
+            margin-bottom: 30px;
+            transition: transform 0.3s;
+        }
+
+        .rounded-box:hover {
+            transform: translateY(-5px);
+        }
+
+        /* IMÁGENES DENTRO DE CAJAS */
+        .box-image {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+        }
+
+        .box-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* DISPOSICIÓN DE CAJAS */
+        .boxes-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 50px;
+        }
+
+        /* BOTÓN */
+        .btn {
+            display: inline-block;
+            background: #3498db;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 50px;
+            text-decoration: none;
+            margin-top: 20px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .btn:hover {
+            background: #2980b9;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- HERO SECTION -->
+        <div class="rounded-box" style="text-align: center; padding: 40px;">
+            <h1 style="margin: 0; font-size: 2.5em;">Tu Mascota en Buenas Manos</h1>
+            <p style="font-size: 1.2em;">Contáctanos</p>
+        </div>
+
+        <!-- SECCIÓN EQUIPO -->
+        <h2 class="section-title">Nuestro Equipo</h2>
+        
+        <div class="boxes-container">
+            <!-- CAJA 1 - EQUIPO -->
+            <div class="rounded-box">
+                <img src="https://via.placeholder.com/600x400?text=Equipo+Veterinario" alt="Nuestro Equipo" class="box-image">
+                <div class="box-content">
+                    <h3>Profesionales Certificados</h3>
+                    <p>Contamos con especialistas en diversas áreas de la medicina veterinaria.</p>
+                </div>
+            </div>
+
+            <!-- CAJA 2 - INSTALACIONES -->
+            <div class="rounded-box">
+                <img src="https://via.placeholder.com/600x400?text=Instalaciones" alt="Instalaciones" class="box-image">
+                <div class="box-content">
+                    <h3>Instalaciones Modernas</h3>
+                    <p>Clínica equipada con tecnología de última generación.</p>
+                </div>
+            </div>
+
+            <!-- CAJA 3 - CUIDADO -->
+            <div class="rounded-box">
+                <img src="https://via.placeholder.com/600x400?text=Cuidado+Personalizado" alt="Cuidado" class="box-image">
+                <div class="box-content">
+                    <h3>Cuidado Personalizado</h3>
+                    <p>Atención individualizada para cada mascota.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN SERVICIOS -->
+        <h2 class="section-title">Nuestros Servicios</h2>
+        
+        <div class="boxes-container">
+            <!-- CAJA 1 - MEDICINA GENERAL -->
+            <div class="rounded-box">
+                <img src="https://via.placeholder.com/600x400?text=Medicina+General" alt="Medicina General" class="box-image">
+                <div class="box-content">
+                    <h3>Medicina General</h3>
+                    <p>Consultas, diagnósticos y tratamientos.</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+
+            <!-- CAJA 2 - LABORATORIO -->
+            <div class="rounded-box">
+                <img src="https://via.placeholder.com/600x400?text=Laboratorio" alt="Laboratorio" class="box-image">
+                <div class="box-content">
+                    <h3>Laboratorio</h3>
+                    <p>Análisis clínicos completos.</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+
+            <!-- CAJA 3 - IMAGENOLOGÍA -->
+            <div class="rounded-box">
+                <img src="https://via.placeholder.com/600x400?text=Imagenología" alt="Imágenes" class="box-image">
+                <div class="box-content">
+                    <h3>Imágenes</h3>
+                    <p>Rayos X, ecografías y más.</p>
+                    <a href="#" class="btn">Más información</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SECCIÓN ESPECIALISTAS -->
+        <div class="rounded-box" style="text-align: center; padding: 40px; margin-top: 50px; background: linear-gradient(135deg, #3498db, #2c3e50); color: white;">
+            <h2 style="margin: 0; font-size: 2em;">Somos Veterinarios Especialistas</h2>
+            <p style="font-size: 1.2em;">Con más de 15 años de experiencia en cuidado animal.</p>
+        </div>
+    </div>
+</body>
+</html>
